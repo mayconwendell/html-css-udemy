@@ -5,12 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo a usar divs</title>
     <style>
-
+        div#nav{
+            background-color: gray;
+        }
+        div#conteudo{
+            background-color: gray;
+        }
+        div.produto{
+            color: black;
+        }
+        #rodape{
+            background-color: darkgray;
+            color: black,;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+        #assinatura{
+            color: red;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <img src="" alt="">
+    <div id="nav">
+        <img src="imagens/amazon.png" alt="logo Amazom" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
     </div>
+    <div id="conteudo">
+        <div class="produto">Produto 1</div>
+        <div class="produto">Produto 2</div>
+        <div class="produto">Produto 3</div>
+    </div>
+    <div id="rodape">
+        Todos os direitos reservados
+    </div>
+
+    <span id="assinatura">
+        Maycon Wendell Lima de Oliveira
+    </span>
+    <span>
+        Flamenguista
+    </span>
 </body>
 </html>
