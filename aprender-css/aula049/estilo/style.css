@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-#principal{
-    width: 920px;
-    border: 1px solid red;
+body{
+    background-color: #f4f4f4;
 }
 
-#fotos{
+#principal{
+    width: 920px;
 
 }
 
@@ -17,3 +17,14 @@
     float: left;
 }
 
+.clear{
+    clear: both;
+}
+
+.imagem-galeria{
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+    width: 265px;
+    float: left;
+}
