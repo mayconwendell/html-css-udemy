@@ -9,3 +9,21 @@ body{
     width: 800px;
     margin: 10px auto;
 }
+
+h1{
+
+}
+
+p{
+    padding: 10px;
+    width: 400px;
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;
+
+
+    top: -30px;
+    left: 80px;
+}
