@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#principal{
+    width: 920px;
+    border: 1px solid red;
+}
+
+#fotos{
+
+}
+
+.noticia{
+    background: #e5e5e5;
+    padding: 5px;
+    margin: 7px;
+    width: 280px;
+    float: left;
+}
+
